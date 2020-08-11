@@ -1,13 +1,7 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
+import AppRouter from "./components/Router/AppRouter";
 
-function App() {
-  return (
-    <div className="App">
-      <h1>HOOKS</h1>
-    </div>
-  );
-}
+const App = () => <AppRouter />;
 
 export default App;
